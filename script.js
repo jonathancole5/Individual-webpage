@@ -22,13 +22,13 @@ function boy(){
 	}
 	
 	if (buttenable == true){
-	rfunc = Math.floor(Math.random() * 1)
+	rfunc = Math.floor(Math.random() * 2)
 	rimage = Math.floor(Math.random() * 5)
-		if(rfunc == 1){
+		if(rfunc == 0){
 			reset()
 			color()
 		}
-		if(rfunc == 0){
+		if(rfunc == 1){
 			reset()
 			reveal()
 		}
