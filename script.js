@@ -23,7 +23,7 @@ function boy(){
 	
 	if (buttenable == true){
 	rfunc = Math.floor(Math.random() * 1)
-	rimage = Math.floor(Math.random() * 8)
+	rimage = Math.floor(Math.random() * 5)
 		if(rfunc == 1){
 			reset()
 			color()
@@ -179,22 +179,22 @@ function reveal(){
 		document.body.style.backgroundImage = 'url("nothank.png")'
 	}
 	if (rimage == 2){
-		document.body.style.backgroundImage = 'url("2.png")'
+		document.body.style.backgroundImage = 'url("deletethis.png")'
 	}
 	if (rimage == 3){
-		document.body.style.backgroundImage = 'url("deletethis.png")'
+		document.body.style.backgroundImage = 'url("idc.jpg")'
 	}
 	if (rimage == 4){
 		document.body.style.backgroundImage = 'url("non.jpg")'
 	}
 	if (rimage == 5){
-		document.body.style.backgroundImage = 'url("idc.jpg")'
+		document.body.style.backgroundImage = 'url("")'
 	}
 	if (rimage == 6){
-		document.body.style.backgroundImage = 'url("Great.PNG")'
+		document.body.style.backgroundImage = 'url(")'
 	}
 	if (rimage == 7){
-		document.body.style.backgroundImage = 'url("STOP.jpg")'
+		document.body.style.backgroundImage = 'url("")'
 	}
 	
 	
