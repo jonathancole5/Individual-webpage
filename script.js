@@ -173,28 +173,28 @@ function reveal(){
 	var biip = new Audio('sound/biip.mp3');
 	var boop = new Audio('sound/boop.mp3');
 	if (rimage == 0){
-		document.body.style.backgroundImage = 'url("images/ario.jpg")'
+		document.body.style.backgroundImage = 'url("ario.jpg")'
 	}
 	if (rimage == 1){
-		document.body.style.backgroundImage = 'url("images/nothank.png")'
+		document.body.style.backgroundImage = 'url("nothank.png")'
 	}
 	if (rimage == 2){
-		document.body.style.backgroundImage = 'url("images/2.png")'
+		document.body.style.backgroundImage = 'url("2.png")'
 	}
 	if (rimage == 3){
-		document.body.style.backgroundImage = 'url("images/deletethis.png")'
+		document.body.style.backgroundImage = 'url("deletethis.png")'
 	}
 	if (rimage == 4){
-		document.body.style.backgroundImage = 'url("images/non.jpg")'
+		document.body.style.backgroundImage = 'url("non.jpg")'
 	}
 	if (rimage == 5){
-		document.body.style.backgroundImage = 'url("images/idc.jpg")'
+		document.body.style.backgroundImage = 'url("idc.jpg")'
 	}
 	if (rimage == 6){
-		document.body.style.backgroundImage = 'url("images/Great.PNG")'
+		document.body.style.backgroundImage = 'url("Great.PNG")'
 	}
 	if (rimage == 7){
-		document.body.style.backgroundImage = 'url("images/STOP.jpg")'
+		document.body.style.backgroundImage = 'url("STOP.jpg")'
 	}
 	
 	
