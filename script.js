@@ -163,7 +163,7 @@ function color(){
 		}
 		
 		if (i < b.length){ 							//Delays itself after each instance before looping again
-			setTimeout(color, 15);
+			setTimeout(color, 2);
 		}
 	}
 }
@@ -223,7 +223,7 @@ function reveal(){
 		}
 		
 		if (i < b.length){ 							//Delays itself after each instance before looping again
-			setTimeout(reveal, 5);
+			setTimeout(reveal, 2);
 		}
 	}
 }
