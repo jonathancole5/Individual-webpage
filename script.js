@@ -42,9 +42,9 @@ while (buttenable == false && alreadyreset == false){
 
 
 function color(){
-	var beep = new Audio('sound/beep.mp3');
-	var biip = new Audio('sound/biip.mp3');
-	var boop = new Audio('sound/boop.mp3');
+	var beep = new Audio('beep.mp3');
+	var biip = new Audio('biip.mp3');
+	var boop = new Audio('boop.mp3');
 	if (i2 !== 1){
 		raudio = Math.floor(Math.random() * 26)
 		if (raudio == 0){
@@ -169,9 +169,9 @@ function color(){
 }
 
 function reveal(){
-	var beep = new Audio('sound/beep.mp3');
-	var biip = new Audio('sound/biip.mp3');
-	var boop = new Audio('sound/boop.mp3');
+	var beep = new Audio('beep.mp3');
+	var biip = new Audio('biip.mp3');
+	var boop = new Audio('boop.mp3');
 	if (rimage == 0){
 		document.body.style.backgroundImage = 'url("ario.jpg")'
 	}
